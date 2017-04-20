@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calculator_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="5"
+    android:rowCount="7"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:useDefaultMargins="false"
+    tools:context="ie.corktrainingcentre.calculator.MainActivity_Calculator">
+
+
+    <Button
+        android:id="@+id/mc"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/mc" />
+
+    <Button
+
+        android:id="@+id/mr"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:text="@string/mr"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+    <Button
+        android:layout_column="2"
+        android:id="@+id/ms"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/ms"
+        />
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:id="@+id/mplus"
+        android:text="@string/mplus"/>
+
+    <Button
+        android:layout_column="4"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:id="@+id/mminus"
+        android:text="@string/mminus" />
+
+    <Button
+        android:id="@+id/backspace"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/backspace" />
+
+
+
+    <Button
+        android:id="@+id/ce"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:text="@string/ce" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:text="@string/c" />
+
+    <Button
+
+        android:id="@+id/plusminus"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/squareroot"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:text="@string/seven"/>
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:text="@string/eight"/>
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:text="@string/nine"/>
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/divide"/>
+
+    <Button
+
+        android:id="@+id/percent"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/percent"/>
+
+    <Button
+
+        android:id="@+id/four"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/four"/>
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/five"/>
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/six"/>
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/multiply"/>
+
+    <Button
+        android:id="@+id/oneoverx"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/oneoverx"/>
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/one"/>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/two"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/three"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/minus"/>
+
+    <Button
+        android:id="@+id/equals"
+        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:text="@string/equals"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/zero"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2" />
+
+    <Button
+        android:layout_gravity="fill"
+        android:id="@+id/dot"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/dot"/>
+
+    <Button
+        android:layout_gravity="fill_horizontal"
+        android:id="@+id/plus"
+        android:layout_width="55dp"
+        android:layout_height="80dp"
+        android:text="@string/plus"/>
+
+</GridLayout>
